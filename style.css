@@ -77,6 +77,10 @@ nav .bottom-nav {
 nav .bottom-nav .brand-main-logo {
   transform: translateY(-12px);
   margin-bottom: -15px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 nav .bottom-nav .navlink-box {
@@ -409,7 +413,7 @@ section.about-us .feature-section .brand-signature {
   gap: 25px;
 }
 
-/* =========== why choose us section ================ */
+/* =========== why choose us section =================================================== */
 .why-choose-us {
   background: #0e1628;
   margin-bottom: 120px;
@@ -552,7 +556,7 @@ section.about-us .feature-section .brand-signature {
     max-width: 800px;
   }
 }
-/* =========== doctors section =========== */
+/* =========== doctors section =========== ========================================*/
 
 .doctors-list .slick-slide,
 .blog-list .blog-card {
@@ -826,7 +830,11 @@ section.about-us .feature-section .brand-signature {
 }
 
 footer.footer .top-footer .footer-brand img {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
 }
 
 footer.footer .top-footer .footer-brand {
@@ -1047,7 +1055,7 @@ footer .footer-social a:hover {
 
 @media (max-width: 1350px) {
   nav .bottom-nav {
-    padding: 20px 40px;
+    padding: 12px 40px;
   }
 
   nav .bottom-nav .brand-main-logo {
@@ -1072,7 +1080,7 @@ footer .footer-social a:hover {
   }
 
   section.hero-section .overlay-hero-bg .content-box h1.main-title {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 80px;
   }
 
